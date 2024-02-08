@@ -1,0 +1,29 @@
+Artisan:
+
+Interface de linha de comando no Laravel.
+Incluído ao iniciar um novo projeto.
+Fornece atalhos para aumentar a produtividade.
+Rotas:
+
+Representam os caminhos dentro da aplicação.
+Organizadas em diferentes grupos no Laravel (API, Channels, Console, Web).
+Controllers:
+
+Classes com padrão CamelCase.
+Agrupam a lógica com base nas rotas acessadas.
+Terminam com "Controller".
+Recebem a requisição da rota e executam uma ação.
+Tipos de Rotas no Laravel:
+
+API: Para responder a requisições de dados, não suporta cookies e sessões.
+Channels: Para comunicação em tempo real usando websockets.
+Console: Comandos personalizados executados via Artisan.
+Web: Processa páginas do lado do back-end, permitindo cookies e sessões.
+Métodos HTTP:
+
+GET, POST, PUT, PATCH, DELETE, OPTIONS.
+Visões (Views):
+
+Páginas HTML geradas do lado do servidor.
+Enviadas como resposta para o cliente.
+Localizadas em "resources/views".
