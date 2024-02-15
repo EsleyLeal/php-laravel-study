@@ -3,7 +3,7 @@ precisa esta publico, no diretorio Public.
 
 
 
-utilizamos o help no blade ara conseguir visualizar o asset
+utilizamos o help no blade para conseguir visualizar o asset
 
 
 exemplo de codigo
