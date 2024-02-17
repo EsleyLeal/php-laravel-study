@@ -1,0 +1,1 @@
+Previamente configurado uma conexão local.
