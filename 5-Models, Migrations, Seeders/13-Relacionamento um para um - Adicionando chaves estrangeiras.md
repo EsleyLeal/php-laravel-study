@@ -5,7 +5,7 @@ chave estrangeira.
 
 por exemplo
 
-                    produtos -->
+                    produtos -->            chave estrangeira >>>>>>>>>>
                         id     -------------------------------------------
                                                     produtos_detalhes     |
                                                             id            |
@@ -40,7 +40,7 @@ PRODUTO id da tabela produto_detalhes faz referencia para coluna id da tabela pr
 
             // constrant
             $table->foreign('produto_id')->references('id')->on('produtos');
-            $table->unique('produto_id');  =================================== Garante que nao exista repetição
+            $table->unique('produto_id');  =================================== Garante que nao exista valores repitidos
         });
     }
 
