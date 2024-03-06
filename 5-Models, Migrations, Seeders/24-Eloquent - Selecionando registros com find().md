@@ -2,7 +2,7 @@ Metodo Estatico
 
 Semelhante ao metodo all()
 
-find() - Espera por parametro a a primeKey - Uma ou varias.
+find() - Espera por parametro a primeKey - Uma ou varias.
 
 $fornecedores2 = Fornecedor::find();
 
