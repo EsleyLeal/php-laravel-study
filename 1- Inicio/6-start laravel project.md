@@ -17,4 +17,4 @@ e descomentar o extension=zip
 e extension=fileinfo
 
 
-composer create-project --prefer-dist laravel/laravel projeto_laravel_vi_composer "7.0"
+composer create-project --prefer-dist laravel/laravel Desafio-PBSoft
